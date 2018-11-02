@@ -1,0 +1,16 @@
+body {
+    background-color: lightyellow;
+    font: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 300%;
+
+}
+
+header {
+    font-size: 135%;
+}
