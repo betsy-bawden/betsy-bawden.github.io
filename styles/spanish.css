@@ -1,0 +1,18 @@
+body {
+    background-color: silver;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+}
+
+aside {
+    width: 30%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px black;
+    color: black;
+}
+
+aside > p {
+    margin: .25rem;
+}
