@@ -5,3 +5,24 @@ button {
     text-align: justify;
     font-size: 15px;
 }
+
+.elf-border {
+    margin: 8%;
+    padding: 2%;
+}
+
+button:hover {
+    color: green;
+}
+
+button:active {
+    color:red;
+}
+
+body {
+    background-color: silver;
+}
+
+#aside-html {
+    float: right;
+}
