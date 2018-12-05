@@ -19,19 +19,19 @@ window.onload = () => {
         milesToFeetDisplay.textContent = milesToFeet(milesToFeetInput.value);
     };
 
-    const areaOfTriangle =
-        document.getElementById('area-of-triangle');
+    const areaOfTriangleAction =
+        document.getElementById('area-of-triangle-action');
     
-    areaOfTriangle.onclick = () => {
+    areaOfTriangleAction.onclick = () => {
         const areaOfTriangleInput = document.getElementById('area-of-triangle-input');
         const areaOfTriangleDisplay = document.getElementById('area-of-triangle-display');
 
         areaOfTriangleDisplay.textContent = areaOfTriangle(areaOfTriangleInput.value);
     };
 
-    const areaOfCircle =
-        document.getElementById('area-of-circle');
-    areaOfCircle.onclick = () => {
+    const areaOfCircleAction =
+        document.getElementById('area-of-circle-action');
+    areaOfCircleAction.onclick = () => {
         const areaOfCircleInput = document.getElementById('area-of-circle-input');
         const areaOfCircleDisplay = document.getElementById('area-of-circle-display');
 
@@ -48,7 +48,7 @@ const milesToFeet = (miles) => {
 };
 
 const areaOfTriangle = (base, height) => {
-    return base * height/2;
+    return base * height / 2;
 };
 
 const areaOfCircle = (radius) => {
