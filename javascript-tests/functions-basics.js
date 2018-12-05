@@ -16,7 +16,7 @@ functionParameters("Many functions take parameters");
 
 functionReturn();
 
-window.onload = {
+window.onload = () => {
     const simpleFunction = document.getElementById('simple-function');
     const functionCalls = document.getElementById('function-calls');   
 }
